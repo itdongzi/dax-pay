@@ -1,0 +1,19 @@
+# 在主项目目录创建 .gitignore
+cat > .gitignore << 'EOF'
+.DS_Store
+node_modules/
+dist/
+.idea/
+*.log
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+build/
+dist/
+EOF
